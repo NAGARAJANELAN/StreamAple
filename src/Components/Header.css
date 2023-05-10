@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* mar */
+}
+
+.section-A{
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 45px;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+.section-B{
+    border: 1.3px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-B:hover{
+    border: 1.3px solid #00ffff;
+}
+
+input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    content: URL('/public/dark-cross.png');
+    width: 32px;
+    cursor: pointer;
+   }
+
+.input-field{
+    height: 43px;
+    width: 35vw;
+    border-radius: 30px;
+    border:none; 
+    background: none; 
+    outline: none;
+    line-height: 150%;
+    font-size: 120%;
+    padding: 0px 16px;
+    color: white;
+}
+
+.search{
+    width: 32px;
+    margin-right: 12px;
+}
+
+.section-C{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.mode{
+    width: 32px;
+    margin-right: 24px;
+}
+.profile{
+    width: 36px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid white;
+}
+
+.content{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    height: 100vh;
+}
