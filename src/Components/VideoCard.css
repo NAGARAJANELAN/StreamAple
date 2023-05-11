@@ -1,0 +1,38 @@
+.video-card{
+    /* background-color: #ddd; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    width: 560px;
+    height: 270px;
+    margin-top: 5px;
+    margin-right: 20px;
+    /* border: 0.5px solid rgb(255, 255, 255); */
+    border-radius: 30px;
+    /* padding-left: 12px; */
+    cursor: pointer;
+}
+/* .video-card:hover{ */
+    /* width: 580px; */
+    /* height: 290px; */
+    /* box-shadow: 5px 10px 8px 5px #888888; */
+    /* border: 2px solid aqua; */
+/* } */
+
+.movie-img{
+    display: block;
+    width: 550px;
+    height: 270px;
+    border-radius: 30px;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+.title{
+    /* position: relative; */
+    /* bottom: 25px;
+    left: 12px; */
+    color: white;
+    padding: 0px 12px 5px;
+    font-size: 120%;
+}

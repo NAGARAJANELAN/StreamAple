@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,46 +12,54 @@
     /* mar */
 }
 
-.section-A{
+.section-A {
     display: flex;
     align-items: center;
     margin: 9px;
+
+}
+
+.menu {
+    width: 45px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
-.menu{
-    width: 45px;
-    margin-right: 20px;
-}
-
-.logo{
+.logo {
     width: 70px;
+    cursor: pointer;
 }
 
-.section-B{
+.section-B {
     border: 1.3px solid white;
     border-radius: 30px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
-.section-B:hover{
+.section-B:hover {
     border: 1.3px solid #00ffff;
 }
 
-input::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-    content: URL('/public/dark-cross.png');
-    width: 32px;
-    cursor: pointer;
-   }
+.back-option {
+    position: fixed;
+    left: 10px;
+    top: 16px;
+    display: none;
+}
 
-.input-field{
+.search-section {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
     height: 43px;
     width: 35vw;
-    border-radius: 30px;
-    border:none; 
-    background: none; 
+    border-radius: 40px;
+    border: none;
+    background: none;
     outline: none;
     line-height: 150%;
     font-size: 120%;
@@ -59,31 +67,136 @@ input::-webkit-search-cancel-button {
     color: white;
 }
 
-.search{
+.cross {
+    width: 30px;
+}
+
+.search {
     width: 32px;
+    margin-left: 12px;
     margin-right: 12px;
 }
 
-.section-C{
+.section-C {
     display: flex;
     align-items: center;
     margin-right: 16px;
 }
 
-.mode{
+.mode {
     width: 32px;
-    margin-right: 24px;
+    margin-right: 2vw;
 }
-.profile{
+
+.profile {
     width: 36px;
     border-radius: 50%;
     padding: 4px;
     border: 2px solid white;
 }
 
-.content{
+.content {
     margin-top: 65px;
     display: grid;
     grid-template-columns: 1fr 9fr;
     height: 100vh;
+}
+
+.side-scroll {
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    width: 70px;
+    background-color: black;
+    padding-top: 20px;
+    transition: 0.4s;
+    height: 100vh;
+}
+
+.moveleft{
+    left: -60px;
+}
+
+.side-scroll>img {
+    width: 36px;
+    /* border: 1px solid greenyellow; */
+}
+
+.spotlight{
+    background-color: black;
+    margin-left: 70px;
+}
+
+@media (max-width: 520px) {
+
+    .section-B,
+    .section-B:hover {
+        border: 1.3px transparent;
+        margin-right: 8px;
+    }
+
+    .search-section {
+        display: none;
+    }
+
+    .search {
+        width: 38px;
+        margin-left: 0px;
+        margin-right: 8px;
+        border-radius: 50%;
+    }
+
+    .section-A {
+        flex-grow: 2.5;
+        /* default 0 */
+    }
+
+    .mode {
+        margin-right: 10px;
+    }
+
+    .profile {
+        margin-left: 6px;
+    }
+
+    .searcher>.section-A,
+    .searcher>.section-C {
+        display: none;
+    }
+
+    .searcher>.section-B>.back-option {
+        display: block;
+    }
+
+    .searcher>.section-B>.search-section>.input-field {
+        width: 50vw;
+    }
+
+    .searcher>.section-B {
+        border: 1.3px solid white;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        margin-left: 20%;
+        /* margin-right: 50%; */
+    }
+
+    .searcher>.section-B>.search-section {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .side-scroll {
+        display: none;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
 }
