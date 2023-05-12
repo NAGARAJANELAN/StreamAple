@@ -5,9 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    /* height: 100vh; */
     justify-content: center;
-    /* border: 2px dashed red; */
     padding-top: 40px;
     padding-right: 60px;
     padding-bottom: 40px;
