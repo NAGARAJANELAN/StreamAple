@@ -8,6 +8,7 @@ import HomePage from "../pages/HomePage";
 import SportsPage from "../pages/SportsPage";
 import MusicPage from "../pages/MusicPage";
 import MoviePage from "../pages/MoviePage";
+import GamePage from "../pages/GamePage";
 
 
 function Header() {
@@ -105,6 +106,8 @@ function Header() {
           <div
             className={`side-scroll ${sidebarVisible ? "moveleft" : ""} ${
               darkMode ? "dark" : "light"
+            } ${
+              darkMode ? "br-dark" : "br-light"
             }`}
           >
             <Link to="/" style={{ textDecoration: "none" }}>
@@ -139,11 +142,14 @@ function Header() {
               />
             </Link>
 
-            <img
-              className="icon"
-              src={`${darkMode ? "dark-game.png" : "game.png"}`}
-              alt="games"
-            />
+            <Link to="games" style={{ textDecoration: "none" }}>
+              <img
+                className="icon"
+                src={`${darkMode ?  "dark-game.png" : "game.png"}`}
+                alt="games"
+              />
+            </Link>
+
           </div>
 
           <div
@@ -157,6 +163,7 @@ function Header() {
               <Route path="/sports" element={<SportsPage darkMode={darkMode} />} />
               <Route path="/music" element={<MusicPage darkMode={darkMode} />} />
               <Route path="/movie" element={<MoviePage darkMode={darkMode} />} />
+              <Route path="/games" element={<GamePage darkMode={darkMode} />} />
             </Routes>
           </div>
         </div>

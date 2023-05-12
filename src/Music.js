@@ -32,8 +32,8 @@ export default[
         rating:6.8
     },{
         id:6,
-        title:'Vaa Vaathi Lyrical Song - GV Prakash Kumar',
-        imgUrl:'https://i.ytimg.com/vi/592mNGkpYig/maxresdefault.jpg',
+        title:'Luis Fonsi - Despacito ft. Daddy Yankee ',
+        imgUrl:'https://www.billboard.com/wp-content/uploads/media/Luis-Fonsi-Despacito-ft.-Daddy-Yankee-screenshot-2017-billboard-1548.jpg',
         desc:'dummt bideo',
         rating:6.8
     },

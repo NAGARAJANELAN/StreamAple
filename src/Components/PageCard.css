@@ -14,10 +14,12 @@
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
     object-fit: cover;
     border-radius: 20px;
+    pointer-events: none;
 }
 
 .card-desc{
     width: 350px;
+    height: 45px;
     position: relative;
     top: -60px;
     display: flex;
@@ -31,14 +33,14 @@
     overflow-y: hidden;
     margin: 10px;
     text-shadow:
-    -0.35px -0.35px 0 #000,
-     0   -0.35px 0 #000,
-     0.35px -0.35px 0 #000,
-     0.35px  0   0 #000,
-     0.35px  0.35px 0 #000,
-     0    0.35px 0 #000,
-    -0.35px  0.35px 0 #000,
-    -0.35px  0   0 #000;
+    -0.4px -0.4px 0 #000,
+     0   -0.4px 0 #000,
+     0.4px -0.4px 0 #000,
+     0.4px  0   0 #000,
+     0.4px  0.4px 0 #000,
+     0    0.4px 0 #000,
+    -0.4px  0.4px 0 #000,
+    -0.4px  0   0 #000;
 }
 
 .card-play{

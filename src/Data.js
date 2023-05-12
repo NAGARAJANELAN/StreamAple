@@ -59,7 +59,7 @@ export default [
 // messi https://cdn.britannica.com/22/238522-050-F29FD74E/FIFA-2022-World-Cup-Argentina.jpg
 
 // fortnite https://sportsculture.in/wp-content/uploads/2023/01/Fortnite-best-online-game.jpeg
-// pubg https://img.utdstc.com/screen/595/f82/595f82b8d9cc00535ad9e8e8a37576ae440a11c5db2167ddb5f9db54df297e5e:600
+// pubg https://www.91-cdn.com/hub/wp-content/uploads/2022/01/PUBG.jpg
 // lol https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/LOL_2560x1440-98749e0d718e82d27a084941939bc9d3
 // nfs https://staticg.sportskeeda.com/editor/2020/12/ed6f5-16069157093599-800.jpg
 // mcraft https://media.pocketgamer.com/artwork/na-15358-1674684301/games-like-minecraft-header_jpg_820.jpg

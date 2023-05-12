@@ -1,5 +1,5 @@
 .sidebar {
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     /* top:-5px; */
     top: 59px;
@@ -48,4 +48,11 @@
 .dark {
     background-color: black;
     color: white;
+}
+
+.credits{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top: 80px;
 }

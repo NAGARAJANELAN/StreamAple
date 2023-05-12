@@ -15,6 +15,7 @@ function SideBar({ show, darkMode }) {
         <div><span className="bar">History</span></div>
         <div><span className="bar">Setting</span></div>
         <div><span className="bar">Help</span></div>
+        {/* <div className="credits">About Us<br></br>nax.com</div> */}
       </div>
     </>
   );
