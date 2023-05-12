@@ -1,7 +1,17 @@
 .container {
     display: flex;
-    overflow-x: auto;
-    height: 300px;
+    flex-wrap: wrap;
     width: 100vw;
-    gap: 10px;
+    /* height: 100vh; */
+    justify-content: center;
+    /* border: 2px dashed red; */
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+.dark{
+    color: white;
+}
+.light{
+    color: black;
 }

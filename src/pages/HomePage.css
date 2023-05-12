@@ -14,9 +14,7 @@
 
 .head {
     padding-left: 10px;
-
 }
-
 
 .no-scrollbar {
     scrollbar-width: none;
@@ -31,6 +29,7 @@
 @media (max-width: 520px) {
     .trending-section {
         height: 280px;
+        padding-right: 45px;
     }
 }
 
