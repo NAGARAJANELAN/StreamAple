@@ -12,7 +12,7 @@
     flex-direction: column;
     /* justify-content: ; */
     transition: 0.7s;
-    gap: 20px;
+    gap: 0px;
     padding-top: 20px;
 }
 
@@ -20,8 +20,24 @@
     left: 0px;
 }
 
-.sidebar i {
+.sidebar span {
     padding-left: 20px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+}
+
+.light span:hover {
+    background-image: linear-gradient(rgba(99, 97, 97, 0.4) 0 0);
+    background-blend-mode: lighten;
+}
+.dark span:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4) 0 0);
+    /* background-blend-mode: lighten; */
 }
 
 .light {
@@ -29,7 +45,7 @@
     color: rgb(0, 0, 0);
 }
 
-.dark{
+.dark {
     background-color: black;
     color: white;
 }

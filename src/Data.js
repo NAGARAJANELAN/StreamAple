@@ -1,37 +1,47 @@
-export default[
-        {
-            id:1,
-            title:'The Pope\'s Exorcist        ',
-            imgUrl:'https://image.tmdb.org/t/p/w1280/hiHGRbyTcbZoLsYYkO4QiCLYe34.jpg',
-            desc:'dummt bideo',
-            rating:7.4
-        },
-        {
-            id:2,
-            title:'Ant-Man and the Wasp : Quantumania',
-            imgUrl:'https://image.tmdb.org/t/p/w1280/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg',
-            desc:'dummt bideo',
-            rating:6.6
-        },{
-            id:3,
-            title:'The Super Mario Bros. Movie ',
-            imgUrl:'https://image.tmdb.org/t/p/w1280/iJQIbOPm81fPEGKt5BPuZmfnA54.jpg',
-            desc:'dummt bideo',
-            rating:7.5
-        },{
-            id:4,
-            title:'Guardians of the Galaxy 3',
-            imgUrl:'https://image.tmdb.org/t/p/w1280/A7JQ7MIV5fkIxceI5hizRIe6DRJ.jpg',
-            desc:'dummt bideo',
-            rating:8.3
-        },{
-            id:5,
-            title:'Shazam! Fury of the Gods\n',
-            imgUrl:'https://image.tmdb.org/t/p/w1280/nDxJJyA5giRhXx96q1sWbOUjMBI.jpg',
-            desc:'dummt bideo',
-            rating:6.8
-        },
-]
+export default [
+  {
+    id: 1,
+    title: "John Wick: Chapter 4\n",
+    imgUrl: "https://image.tmdb.org/t/p/w1280/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+    desc: "dummt bideo",
+    rating: 7.4,
+  },
+  {
+    id: 2,
+    title: "Ant-Man and the Wasp : Quantumania",
+    imgUrl: "https://image.tmdb.org/t/p/w1280/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg",
+    desc: "dummt bideo",
+    rating: 6.6,
+  },
+  {
+    id: 3,
+    title: "The Super Mario Bros. Movie ",
+    imgUrl: "https://image.tmdb.org/t/p/w1280/iJQIbOPm81fPEGKt5BPuZmfnA54.jpg",
+    desc: "dummt bideo",
+    rating: 7.5,
+  },
+  {
+    id: 4,
+    title: "Guardians of the Galaxy 3",
+    imgUrl: "https://image.tmdb.org/t/p/w1280/A7JQ7MIV5fkIxceI5hizRIe6DRJ.jpg",
+    desc: "dummt bideo",
+    rating: 8.3,
+  },
+  {
+    id: 5,
+    title: "Shazam! Fury of the Gods\n",
+    imgUrl: "https://image.tmdb.org/t/p/w1280/nDxJJyA5giRhXx96q1sWbOUjMBI.jpg",
+    desc: "dummt bideo",
+    rating: 6.8,
+  },
+  {
+    id: 6,
+    desc: "dummt bideo",
+    title: "The Pope's Exorcist        ",
+    imgUrl: "https://image.tmdb.org/t/p/w1280/hiHGRbyTcbZoLsYYkO4QiCLYe34.jpg",
+    rating: 6.8,
+  },
+];
 
 // yellowFAED26
 // vaathi https://i.ytimg.com/vi/592mNGkpYig/maxresdefault.jpg
@@ -40,7 +50,6 @@ export default[
 // stay https://i.ytimg.com/vi/kTJczUoc26U/maxresdefault.jpg
 // AVAL https://i.ytimg.com/vi/My_S68DAAPg/maxresdefault.jpg
 // master https://images.indianexpress.com/2020/03/Master-Vaathi-Coming-759.jpg
-
 
 // dhoni https://www.mykhel.com/img/2021/09/ms-dhoni-csk-1632025314.jpg
 // ipl https://images.mid-day.com/images/images/2023/mar/wdwdefdfgipl_d.jpg

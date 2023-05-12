@@ -9,7 +9,7 @@ export default[
     {
         id:2,
         title:'Post Malone, Swae Lee - Sunflower (Spider-Man) ',
-        imgUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlzQPz3hLJPytWdUiqlfDMFDHSAxEGSFTkGsmxpArBPJLXFEKYESVmQ1JEtuFaVBGV638VkgYJMI&usqp=CAU&ec=48600113',
+        imgUrl:'https://www.iamag.co/wp-content/uploads/2018/10/cover-spiderman-clip.jpg',
         desc:'dummt bideo',
         rating:6.6
     },{
@@ -21,13 +21,13 @@ export default[
     },{
         id:4,
         title:'The Kid LAROI,Justin Bieber - STAY',
-        imgUrl:'https://i.ytimg.com/vi/kTJczUoc26U/maxresdefault.jpg',
+        imgUrl:'https://headlineplanet.com/home/wp-content/uploads/2021/07/The-Kid-Laroi-Justin-Bieber-1280x720.jpg',
         desc:'dummt bideo',
         rating:8.3
     },{
         id:5,
         title:'Manithan - Aval Video song',
-        imgUrl:'https://i.ytimg.com/vi/My_S68DAAPg/maxresdefault.jpg',
+        imgUrl:'https://www.filmibeat.com/imgh/560x292/2016/04/hansika-motwani-udhayanidhi-stalin_1461215724140.jpg',
         desc:'dummt bideo',
         rating:6.8
     },{

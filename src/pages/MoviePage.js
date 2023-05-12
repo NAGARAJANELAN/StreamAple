@@ -1,15 +1,15 @@
 import React from "react";
-import "./SportsPage.css";
+import "./MoviePage.css";
 
-import Sports from "../Sports";
+import Movie from "../Movie";
 import PageCard from "../Components/PageCard";
 
-function SportsPage({darkMode}) {
+function MoviePage({darkMode}) {
   return (
     <div>
-      <h1 className={`head ${darkMode ? "dark" : "light"}`}>Sports</h1>
+      <h1 className={`head ${darkMode ? "dark" : "light"}`}>Movies</h1>
       <div className="container">
-      {Sports.map((data) => (
+      {Movie.map((data) => (
           <PageCard darkMode={darkMode} key={data.id} data={data} />
         ))}
       </div>
@@ -17,4 +17,4 @@ function SportsPage({darkMode}) {
   );
 }
 
-export default SportsPage;
+export default MoviePage;

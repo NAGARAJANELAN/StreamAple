@@ -3,7 +3,8 @@
     height: 250px;
     margin-left: 8px;
     margin-right: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .poster{
@@ -25,9 +26,19 @@
 }
 
 .card-title{
+    font-size: 110%;
     color: white;
     overflow-y: hidden;
     margin: 10px;
+    text-shadow:
+    -0.35px -0.35px 0 #000,
+     0   -0.35px 0 #000,
+     0.35px -0.35px 0 #000,
+     0.35px  0   0 #000,
+     0.35px  0.35px 0 #000,
+     0    0.35px 0 #000,
+    -0.35px  0.35px 0 #000,
+    -0.35px  0   0 #000;
 }
 
 .card-play{

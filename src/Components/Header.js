@@ -6,11 +6,9 @@ import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import SideBar from "./SideBar";
 import HomePage from "../pages/HomePage";
 import SportsPage from "../pages/SportsPage";
+import MusicPage from "../pages/MusicPage";
+import MoviePage from "../pages/MoviePage";
 
-// if (localStorage.darkmodeoption) {
-// } else {
-//   localStorage.darkmodeoption = "yes";
-// }
 
 function Header() {
   const [sidebarVisible, setSideBarVisible] = useState(false);
@@ -57,7 +55,7 @@ function Header() {
 
           <div className={`section-B ${!darkMode ? "dark-border" : ""}`}>
             <div onClick={toggleSearch} className="back-option">
-              back
+              <img src={`${darkMode ? "dark-arrow.png" : "arrow.png"}`} className="profile" alt="back" />
             </div>
 
             <div className="search-section">
@@ -117,17 +115,21 @@ function Header() {
               />
             </Link>
 
+            <Link to="movie" style={{ textDecoration: "none" }}>
             <img
               className="icon"
               src={`${darkMode ? "dark-movie.png" : "movie.png"}`}
               alt="movies"
             />
+            </Link>
 
+            <Link to="music" style={{ textDecoration: "none" }}>
             <img
               className="icon"
               src={`${darkMode ? "dark-music.png" : "music.png"}`}
               alt="music"
             />
+            </Link>
 
             <Link to="sports" style={{ textDecoration: "none" }}>
               <img
@@ -152,10 +154,9 @@ function Header() {
           >
             <Routes>
               <Route path="/" element={<HomePage darkMode={darkMode} />} />
-              <Route
-                path="/sports"
-                element={<SportsPage darkMode={darkMode} />}
-              />
+              <Route path="/sports" element={<SportsPage darkMode={darkMode} />} />
+              <Route path="/music" element={<MusicPage darkMode={darkMode} />} />
+              <Route path="/movie" element={<MoviePage darkMode={darkMode} />} />
             </Routes>
           </div>
         </div>
