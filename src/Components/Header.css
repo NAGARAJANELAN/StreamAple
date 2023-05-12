@@ -9,6 +9,7 @@
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 2;
     /* mar */
 }
 
@@ -81,6 +82,7 @@
     display: flex;
     align-items: center;
     margin-right: 16px;
+    cursor: pointer;
 }
 
 .mode {
@@ -92,7 +94,7 @@
     width: 36px;
     border-radius: 50%;
     padding: 4px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .content {
@@ -112,14 +114,14 @@
     align-items: center;
     gap: 40px;
     width: 70px;
-    background-color: black;
+    background-color: #282828;
     padding-top: 20px;
-    transition: 0.4s;
+    transition: 0.5s;
     height: 100vh;
 }
 
 .moveleft{
-    left: -60px;
+    left: -80px;
 }
 
 .side-scroll>img {
@@ -128,9 +130,28 @@
 }
 
 .spotlight{
-    background-color: black;
-    margin-left: 70px;
+    background-color: #1A1A1D;
+    padding-left: 70px;
+    margin-bottom: 10px;
 }
+
+.dark-border {
+    border: 1.3px solid #000000;
+    color: black;
+ }
+
+ .lightmode{
+    background-color: white;
+    color: black;
+}
+
+ .dark-border>.search-section>.input-field{
+    color: black;
+}
+ .dark-border:hover{
+    border: 1px solid purple;
+}
+
 
 @media (max-width: 520px) {
 
@@ -138,6 +159,10 @@
     .section-B:hover {
         border: 1.3px transparent;
         margin-right: 8px;
+    }
+
+    .dark-border{
+        border: 1.3px black;/*transparent;*/
     }
 
     .search-section {
@@ -177,6 +202,10 @@
         width: 50vw;
     }
 
+    /* .lightmode>.section-B {
+        border: 1.3px solid rgb(255, 255, 255);
+    } */
+
     .searcher>.section-B {
         border: 1.3px solid white;
         display: flex;
@@ -185,6 +214,16 @@
         margin-left: 20%;
         /* margin-right: 50%; */
     }
+
+    .searcher>.dark-border,.searcher>.dark-border:hover {
+        border: 1.3px solid rgb(0, 0, 0);
+    }
+    
+    .dark-border,.dark-border:hover {
+        /* border: 1.3px transparent; */
+        border: 1.3px black;
+    }
+
 
     .searcher>.section-B>.search-section {
         display: flex;
@@ -196,7 +235,12 @@
         display: none;
     }
 
+    .spotlight{
+        padding-left: 10px;
+    }
+
     .content {
         grid-template-columns: 1fr;
     }
+
 }
